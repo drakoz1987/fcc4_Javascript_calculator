@@ -161,8 +161,17 @@ const reducer = (state = INITIAL_STATE, action) => {
                 if (isFloat) {
                   ptDisplay += opt;
                   ttDisplay += opt;
+                } else {
+                  if (ttDisplay.length >= 2) {
+                    ptDisplay += opt;
+                    ttDisplay += opt;
+                  } else {
+                    ptDisplay = opt;
+                    ttDisplay = opt;
+                  }
                 }
               } else {
+                console.log("Here");
                 ptDisplay = String(ptDisplay);
                 ptDisplay += opt;
                 ttDisplay += opt;
@@ -254,15 +263,6 @@ const reducer = (state = INITIAL_STATE, action) => {
             }
           }
           break;
-        default:
-      }
-      newState = {
-        ...state,
-        partialDisplay: ptDisplay,
-        totalDisplay: ttDisplay,
-        result: null
-      };
-      break;
     default:
       newState = { ...state };
   }

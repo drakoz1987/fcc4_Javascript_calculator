@@ -1,0 +1,186 @@
+#root,
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#zero,
+#clear {
+  font-family: "Digital-7"; }
+
+#root {
+  display: -ms-grid;
+  display: grid;
+  height: 100vh;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+canvas {
+  z-index: -5;
+  position: absolute;
+  top: 0; }
+
+body {
+  background: #000;
+  margin: 0; }
+
+.calculator-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 5rem auto;
+  grid-template-rows: 5rem auto;
+  border: 1.5px solid black;
+  background-color: #333;
+  width: 80vw;
+  height: 60vh; }
+  @media (min-width: 301px) {
+    .calculator-container {
+      width: 75vw; } }
+  @media (min-width: 501px) {
+    .calculator-container {
+      width: 60vw; } }
+  @media (min-width: 751px) {
+    .calculator-container {
+      width: 50vw; } }
+  @media (min-width: 901px) {
+    .calculator-container {
+      width: 40vw; } }
+  @media (min-width: 1101px) {
+    .calculator-container {
+      width: 30vw; } }
+
+#display {
+  font-size: 3rem;
+  text-align: right;
+  padding-right: 4px; }
+
+.display-container {
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 2.5fr 3.5fr;
+  grid-template-rows: 2.5fr 3.5fr;
+  border: 1.5px solid #555; }
+
+#mini-display {
+  text-align: right;
+  font-size: 1.4rem;
+  padding-right: 4px;
+  padding-top: 4px;
+  word-wrap: normal; }
+
+.numpad-container {
+  display: -ms-grid;
+  display: grid;
+  grid-template-areas: "cls cls div mul" "sev eig nin sub" "fou fiv six add" "one two thr eq" "zer zer dec eq"; }
+
+button {
+  font-size: 1.7rem;
+  background-color: #ccc; }
+  button:hover {
+    background-color: white; }
+
+#clear {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  background-color: #e52e2e;
+  grid-area: cls;
+  border: 1px solid #e52e2e;
+  color: #fff; }
+  #clear:hover {
+    background-color: #f08989; }
+
+#divide {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: div; }
+
+#multiply {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: mul; }
+
+#seven {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: sev; }
+
+#eight {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: eig; }
+
+#nine {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: nin; }
+
+#subtract {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: sub; }
+
+#four {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: fou; }
+
+#five {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: fiv; }
+
+#six {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: six; }
+
+#add {
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
+  grid-area: add; }
+
+#one {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: one; }
+
+#two {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: two; }
+
+#three {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  grid-area: thr; }
+
+#equals {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 4;
+  background-color: #2ea8e5;
+  border: 1px solid #2ea8e5;
+  color: #fff;
+  grid-area: eq; }
+  #equals:hover {
+    background-color: #89cef0; }
+
+#zero {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: zer; }
+
+#decimal {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: dec; }

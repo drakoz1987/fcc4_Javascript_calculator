@@ -1,0 +1,4 @@
+.numpad-container {
+	display: grid;
+	grid-template-areas: "cls cls div mul" "sev eig nin sub" "fou fiv six add" "one two thr eq" "zer zer dec eq";
+}

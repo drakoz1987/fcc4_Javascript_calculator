@@ -1,0 +1,99 @@
+[
+	{
+		"category": "symbols",
+		"id": "01",
+		"data": [
+			{
+				"name": "clear",
+				"id": "01",
+				"symbol": "CLS"
+			},
+			{
+				"name": "divide",
+				"id": "02",
+				"symbol": "/"
+			},
+			{
+				"name": "multiply",
+				"id": "03",
+				"symbol": "*"
+			},
+			{
+				"name": "add",
+				"id": "04",
+				"symbol": "+"
+			},
+			{
+				"name": "subtract",
+				"id": "05",
+				"symbol": "-"
+			},
+			{
+				"name": "equals",
+				"id": "06",
+				"symbol": "="
+			},
+			{
+				"name": "decimal",
+				"id": "07",
+				"symbol": "."
+			}
+		]
+	},
+	{
+		"category": "numbers",
+		"id": "02",
+		"data": [
+			{
+				"name": "zero",
+				"id": "08",
+				"symbol": "0"
+			},
+			{
+				"name": "one",
+				"id": "09",
+				"symbol": "1"
+			},
+			{
+				"name": "two",
+				"id": "10",
+				"symbol": "2"
+			},
+			{
+				"name": "three",
+				"id": "11",
+				"symbol": "3"
+			},
+			{
+				"name": "four",
+				"id": "12",
+				"symbol": "4"
+			},
+			{
+				"name": "five",
+				"id": "13",
+				"symbol": "5"
+			},
+			{
+				"name": "six",
+				"id": "14",
+				"symbol": "6"
+			},
+			{
+				"name": "seven",
+				"id": "15",
+				"symbol": "7"
+			},
+			{
+				"name": "eight",
+				"id": "16",
+				"symbol": "8"
+			},
+			{
+				"name": "nine",
+				"id": "17",
+				"symbol": "9"
+			}
+		]
+	}
+]

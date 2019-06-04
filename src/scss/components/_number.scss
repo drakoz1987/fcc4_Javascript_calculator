@@ -1,0 +1,70 @@
+button {
+	font-size: 1.7rem;
+	background-color: #ccc;
+	&:hover {
+		background-color: lighten(#ccc, 40%);
+	}
+}
+#clear {
+	background-color: #e52e2e;
+	grid-area: cls;
+	border: 1px solid #e52e2e;
+	color: #fff;
+	&:hover {
+		background-color: lighten(#e52e2e, 20%);
+	}
+}
+#divide {
+	grid-area: div;
+}
+#multiply {
+	grid-area: mul;
+}
+#seven {
+	grid-area: sev;
+}
+#eight {
+	grid-area: eig;
+}
+#nine {
+	grid-area: nin;
+}
+#subtract {
+	grid-area: sub;
+}
+#four {
+	grid-area: fou;
+}
+#five {
+	grid-area: fiv;
+}
+#six {
+	grid-area: six;
+}
+#add {
+	grid-area: add;
+}
+#one {
+	grid-area: one;
+}
+#two {
+	grid-area: two;
+}
+#three {
+	grid-area: thr;
+}
+#equals {
+	background-color: #2ea8e5;
+	border: 1px solid #2ea8e5;
+	color: #fff;
+	grid-area: eq;
+	&:hover {
+		background-color: lighten(#2ea8e5, 20%);
+	}
+}
+#zero {
+	grid-area: zer;
+}
+#decimal {
+	grid-area: dec;
+}
